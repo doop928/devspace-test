@@ -1,4 +1,8 @@
 schemaVersion: 2.2.0
 metadata:
   name: workyspace
-  
+components:
+  - name: image
+    container:
+      image: image-registry.openshift-image-registry.svc:5000/vinay-devspaces/adp3g-build:latest
+      command: ['sleep', 'infinity']
