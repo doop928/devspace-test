@@ -4,5 +4,5 @@ metadata:
 components:
   - name: image
     container:
-      image: artifactory-cedp-bin.apps.aro01.prd.ocp.az.cldsvcs.net/adp3g-docker-internal-production-local/ca.gc.cra.rc3g/adp3g-build:2.0.0
+      image: artifactory-cedp-bin.apps.aro01.prd.ocp.az.cldsvcs.net/adp3g-docker-internal-production-local/ca.gc.cra.rc3g/adp3g-build:2.1.0
       command: ['sleep', 'infinity']
