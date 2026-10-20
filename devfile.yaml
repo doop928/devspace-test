@@ -4,6 +4,6 @@ metadata:
 components:
   - name: image
     container:
-      image: artifactory-cedp-bin.apps.aro01.prd.ocp.az.cldsvcs.net/adp3g-docker-internal-production-local/ca.gc.cra.rc3g/adp3g-build:2.1.0
+      image: artifactory-cedp-bin.apps.aro01.prd.ocp.az.cldsvcs.net/adp3g-docker-internal-development-local/ca.gc.cra.rc3g/adp3g-build:2.2.0
       memoryRequest: 1536Mi
       command: ['/usr/bin/podman', 'system', 'service', '--time', '0', 'unix:///run/user/1000/docker.sock']
